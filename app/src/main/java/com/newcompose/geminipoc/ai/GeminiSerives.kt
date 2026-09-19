@@ -6,7 +6,7 @@ class GeminiService {
 
     private val model = GenerativeModel(
         modelName = "gemini-3.5-flash",
-        apiKey = "AQ.Ab8RN6Kp4K5cBFk4-lEovgbHJ5U0aFxoFrXUV-4tIDCQd9nGfQ"
+        apiKey = ""
     )
 
     suspend fun understandQuery(
